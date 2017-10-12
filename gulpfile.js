@@ -78,7 +78,7 @@ function getAppPartials() {
             empty : true
         }))
         .pipe(ngHtml2Js({
-            moduleName      : 'indoorPi',
+            moduleName      : 'boilerplate',
             declareModule   : false,
             prefix          : '/'
         }))
@@ -93,7 +93,7 @@ function getAppI18n() {
         .pipe(gulpif(util.env.debug,using()))
         .pipe(minifyJson())
         .pipe(ngLang2Js({
-            moduleName      : 'indoorPi',
+            moduleName      : 'boilerplate',
             declareModule   : false,
             prefix          : '/',
             rename: function (translationUrl, translationFile) {

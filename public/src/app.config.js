@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-    .module('indoorPi')
+    .module('boilerplate')
     .config(config)
     .run(run);
 
@@ -39,7 +39,7 @@
         //             // Do nothing if authenticated
         //         }, function() {
         //             // Redirect to signin otherwise
-        //             $state.go('indoorPi.signin');
+        //             $state.go('boilerplate.signin');
         //         });
         //     }
         //

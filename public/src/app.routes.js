@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('indoorPi')
+        .module('boilerplate')
         .config(config);
 
     config.$inject  = ['$stateProvider', '$urlRouterProvider'];
@@ -11,7 +11,7 @@
         $urlRouterProvider.otherwise('/home');
 
         $stateProvider
-            .state('indoorPi', {
+            .state('boilerplate', {
                 url: '',
                 abstract: true
             });

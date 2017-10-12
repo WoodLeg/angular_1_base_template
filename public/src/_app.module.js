@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('indoorPi', [
+        .module('boilerplate', [
             // Libs
             'ui.router',
             'ui.bootstrap',
@@ -13,6 +13,6 @@
             'angular-jwt',
 
             // Components
-            'indoorPi.home'
+            'boilerplate.home'
         ]);
 })();

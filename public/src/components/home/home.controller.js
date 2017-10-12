@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('indoorPi.home')
+        .module('boilerplate.home')
         .controller('homeController', HomeController);
 
     HomeController.$inject = [];

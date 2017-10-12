@@ -4,7 +4,7 @@
 
 
     angular
-        .module('indoorPi.home', [])
+        .module('boilerplate.home', [])
         .config(config);
 
     config.$inject = ['$stateProvider'];
@@ -12,7 +12,7 @@
     function config($stateProvider){
 
         $stateProvider
-            .state('indoorPi.home', {
+            .state('boilerplate.home', {
                 url: '/home',
                 views: {
                     'content@': {

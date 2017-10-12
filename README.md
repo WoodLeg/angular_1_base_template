@@ -1,4 +1,4 @@
-# IndoorPi
+# boilerplate
 
 ## Build environment
 

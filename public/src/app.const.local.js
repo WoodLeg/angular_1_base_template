@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-    .module('indoorPi')
+    .module('boilerplate')
     .constant('API', {
         URL: 'http://localhost:8000',
         ENDPOINT: { }

@@ -1,9 +1,10 @@
 {
-  "name": "indoorPi",
+  "name": "boilerplate",
   "version": "0.0.0",
   "description": "",
   "main": "public/src/index.html",
   "scripts": {
+      "dev": "gulp serve"
   },
   "repository": {
     "type": "git",
